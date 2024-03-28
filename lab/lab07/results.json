@@ -1,0 +1,11 @@
+{
+    "tests": [
+        {
+            "score": 6,
+            "max_score": 6,
+            "name": "test_lab07.py::test_keyboard_press_and_typing",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

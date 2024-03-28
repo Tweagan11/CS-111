@@ -1,0 +1,11 @@
+{
+    "tests": [
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab12.py::test_accumulate",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

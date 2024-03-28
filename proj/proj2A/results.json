@@ -1,0 +1,123 @@
+{
+    "tests": [
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_is_move_ok_out_of_bounds",
+            "output": "Out of Bounds at (0, 0)\nOut of Bounds at (0, 0)\nOut of Bounds at (0, 0)\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_is_move_ok_cant_move",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_is_move_ok_straight_down",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_is_move_ok_down_left",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_is_move_ok_down_right",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_is_move_ok_corner_rule",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_do_move_1",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_do_move_2",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_do_gravity_out_of_bounds",
+            "output": "Out of Bounds at (0, 0)\nOut of Bounds at (0, 0)\nOut of Bounds at (0, 0)\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_do_gravity_cant_move",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_do_gravity_straight_down",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_do_gravity_down_left",
+            "output": "Out of Bounds at (1, 0)\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_do_gravity_down_right",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_sand_functional.py::test_do_gravity_corner_rule",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_sand_functional.py::test_do_whole_grid_all_falling_rules",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_sand_functional.py::test_do_whole_grid_sand_falls_together",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 5,
+            "name": "test_sand_functional.py::test_do_whole_grid_until_sand_settles",
+            "output": "Out of Bounds at (1, 5)\nOut of Bounds at (1, 5)\nOut of Bounds at (1, 5)\n\nGrid = <class 'Grid.Grid'>, do_whole_grid = <function do_whole_grid at 0x10f075f80>\n\n    @max_score(5)\n    @with_import('sand_functional', 'do_whole_grid')\n    @with_import('Grid', 'Grid')\n    def test_do_whole_grid_until_sand_settles(Grid, do_whole_grid):\n        keys = [\n            Grid.build(\n                [[None, None, None],\n                 [None, 's', None],\n                 [None, 's', None],\n                 [None, 's', None],\n                 [None, 's', None],\n                 ['s', 's', None]]\n            ),\n            Grid.build(\n                [[None, None, None],\n                 [None, None, None],\n                 [None, 's', None],\n                 [None, 's', None],\n                 [None, 's', None],\n                 ['s', 's', 's']]\n            ),\n            Grid.build(\n                [[None, None, None],\n                 [None, None, None],\n                 [None, None, None],\n                 [None, 's', None],\n                 ['s', 's', None],\n                 ['s', 's', 's']]\n            ),\n            Grid.build(\n                [[None, None, None],\n                 [None, None, None],\n                 [None, None, None],\n                 [None, None, None],\n                 ['s', 's', 's'],\n                 ['s', 's', 's']]\n            ),\n            Grid.build(\n                [[None, None, None],\n                 [None, None, None],\n                 [None, None, None],\n                 [None, None, None],\n                 ['s', 's', 's'],\n                 ['s', 's', 's']]\n            )\n        ]\n        input = Grid.build(\n            [[None, 's', None],\n             [None, 's', None],\n             [None, 's', None],\n             [None, 's', None],\n             [None, 's', None],\n             [None, 's', None]]\n        )\n        output = input\n        for key in keys:\n            output = do_whole_grid(output)\n>           assert output == key\nE           AssertionError: assert Grid.build([[None, None, None], [None, 's', None], [None, 's', None], [None, 's', None], [None, 's', None], [None, 's', 's']]) == Grid.build([[None, None, None], [None, 's', None], [None, 's', None], [None, 's', None], [None, 's', None], ['s', 's', None]])\n\ntest_sand_functional.py:222: AssertionError",
+            "visibility": "visible"
+        }
+    ]
+}

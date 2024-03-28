@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "score": 0.075,
+            "max_score": 15.0,
+            "name": "test_mergesort.py::test_mergesort_already_sorted_data[test1.dialog.txt]",
+            "output": "\ngroup_name = 'test1.dialog.txt'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           AssertionError: assert 'File not fou...you write it?' == '003\\n006\\n01...2\\n956\\n977\\n'\nE             + File not found: /Users/Teagan/Desktop/cs111/hw/hw05/test1.output.txt. Did you write it?\nE             - 003\nE             - 006\nE             - 010\nE             - 012\nE             - 028\nE             - 042...\nE             \nE             ...Full output truncated (44 lines hidden), use '-vv' to show\n\n/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/byu_pytest_utils/dialog.py:29: AssertionError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0.3,
+            "max_score": 15.0,
+            "name": "test_mergesort.py::test_mergesort_revered_data[test2.dialog.txt]",
+            "output": "\ngroup_name = 'test2.dialog.txt'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           AssertionError: assert 'File not fou...you write it?' == '005\\n017\\n04...1\\n974\\n987\\n'\nE             + File not found: /Users/Teagan/Desktop/cs111/hw/hw05/test2.output.txt. Did you write it?\nE             - 005\nE             - 017\nE             - 044\nE             - 045\nE             - 089\nE             - 097...\nE             \nE             ...Full output truncated (44 lines hidden), use '-vv' to show\n\n/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/byu_pytest_utils/dialog.py:29: AssertionError",
+            "visibility": "visible"
+        },
+        {
+            "score": 0.2,
+            "max_score": 20.0,
+            "name": "test_mergesort.py::test_mergesort_shuffled_data[test3.dialog.txt]",
+            "output": "\ngroup_name = 'test3.dialog.txt'\n\n    def new_func(group_name):\n        group_stat = group_stats[group_name]\n        if not group_stat['passed']:\n>           assert group_stat['observed'] == group_stat['expected']\nE           AssertionError: assert 'File not fou...you write it?' == '001\\n002\\n00...4\\n949\\n958\\n'\nE             + File not found: /Users/Teagan/Desktop/cs111/hw/hw05/test3.output.txt. Did you write it?\nE             - 001\nE             - 002\nE             - 007\nE             - 050\nE             - 074\nE             - 077...\nE             \nE             ...Full output truncated (44 lines hidden), use '-vv' to show\n\n/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/byu_pytest_utils/dialog.py:29: AssertionError",
+            "visibility": "visible"
+        }
+    ]
+}
