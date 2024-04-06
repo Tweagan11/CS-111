@@ -1,0 +1,92 @@
+<p class="font-bold">On this page</p>
+<p>Pair programming is a way to program collaboratively with a partner.
+Itâs a great approach when youâre learning how to program, plus itâs
+used by many companies in the tech industry.</p>
+<p>In pair programming, partners are working together <em>at the same time</em>.
+One partner is the âdriver,â who actually types the code. The other
+partner is the ânavigator,â who observes, asks questions, suggests
+solutions, and thinks about slightly longer-term strategies.</p>
+<p>Itâs very important for partners to switch roles throughout an
+assignment, either every 10-20 minutes or alternating each problem.</p>
+<p>This is the traditional approach to pair programming. Partners sit
+together at the same computer, ideally one with a large or double
+monitor. The driver controls the keyboard and mouse, while the navigator
+looks at the code and assignment description.</p>
+<p>Fortunately, it is also very possible to do pair programming online,
+thanks to the wide range of collaborative cloud applications.</p>
+<p>Youâll need two things:</p>
+<p>For hearing each other, you can set up a Zoom call, Google Meet, or
+Discord call.</p>
+<p>For sharing code, you can follow the instructions for your editor of
+choice:</p>
+<p>Youâll generally want to both be using the same editor, so youâll either
+want to find a partner using the same editor or be willing to try a new
+editor. That can be a part of the learning experience, too!</p>
+<p>There are also online editors that support collaboration. One option is
+Repl.it, as long as you use private repls (learn how to get a <a href="https://replit.com">free
+account</a>). You will still need to run the Ok
+commands on your computer.</p>
+<p>If for some reason youâre unable to do actual pairing in an editor, you
+can always fall back to a shared Google Doc. Just make sure to turn off
+the auto-correct in your document, or your code will get infused with
+new and exciting syntax errors.</p>
+<p>We encourage pair programming in projects. Youâre also permitted to pair
+program on a lab problem, especially if you are stuck. Just make sure
+that you are always alternating between roles so that you are both
+learning from the experience. You should <strong>not</strong> be pair programming on
+homework assignments, however, since you are required to write your own
+code for them.</p>
+<p>See the <a href="/articles/about/#learning-cooperatively">course policies</a>
+for more information.</p>
+<p>We recommend finding a partner in your recitation section.</p>
+<p>Youâre not required to have the same partner for every project. Pair
+programming is as much about communication styles as it is about coding
+styles, so itâs important to find a partner that you are able to
+communicate well with.</p>
+<p>For non-project assignments, you should submit your work
+<strong>individually</strong>.</p>
+<p>If youâre working on a <strong>project</strong> together with a partner, <strong>only ONE</strong>
+of you should needs to submit the assignment to Ok. Once the assignment
+has been submitted, you must then add your partner by inviting them by
+email. Make sure to accept the invitation or the partnership wonât be
+official. See <a href="/articles/using-ok/">Using Ok</a> for more
+information.</p>
+<p>We expect partners to communicate with each other, arrange times to meet
+for pairing, and participate equally in the process of pair programming.
+If one of you would like to work separately on particular parts of a
+project, you should communicate that with your partner.</p>
+<p><strong>NOTE</strong>: If you agree verbally (or via email) to work with a given
+partner on a given assignment, you are expected to work through that
+assignment with that partner to completion. You canât abandon your
+partner in the middle of an assignment unless the decision to unpair is
+mutual for both of you. Please be considerate for your partner and donât
+leave them hanging without an easy way to find a new partner in
+mid-assignment. If you are planning to end your partnership and do the
+next assignment alone, please tell your partner this as soon as possible
+when the assignment is given out, so that they can make other
+arrangements.</p>
+<p>We sometimes see feedback like:</p>
+<p>My partner didn't do any work, or didnât do their share of the work,
+or didnât communicate or meet with me, etc. What can I do?</p>
+<p>Or:</p>
+<p>My partner did too much! They hogged the keyboard, or they did the
+whole assignment without waiting for me, or they didnât communicate
+with me, etc. I feel that I didnât get a real chance to help in
+solving the assignment. What can I do?</p>
+<p>Have you tried speaking to your partner about your expectations
+beforehand? Many group issues can be resolved by better communication
+and setting expectations.</p>
+<p>If talking to your partner does not resolve the situation, speak to
+course staff and explain the details of what has happened. We will try
+to help you resolve the issue. If it is an ongoing problem, staff can
+help you find you a partner or allow you to dissolve your partnership
+and submit individually.</p>
+<p>You can go ask for help from the course staff in office hours. We ask
+that <strong>only one of you</strong> enqueue for help at a time. That is, please
+donât try to âdouble upâ by enqueuing both of your names in the line. If
+we find that a pair is doing this, we will remove both of their names
+and move one of them to the very back of the queue. Thank you for your
+cooperation.</p>
+<p class="mt-8 text-lg font-bold">
+    © 2023 Brigham Young University, All Rights Reserved
+  </p>
