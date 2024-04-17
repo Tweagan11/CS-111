@@ -61,6 +61,7 @@ class LinkAnalyzer:
 
 
 if __name__ == "__main__":
-    link = LinkAnalyzer('https://cs111.byu.edu/proj/proj4/assets/page1.html',)
+    command, arg2, arg3, arg4 = sys.argv[1:]
+    link = LinkAnalyzer('https://cs111.byu.edu/proj/proj4/assets/page1.html', arg3, arg4)
     link.run()
-    # command, arg2, arg3, arg4 = sys.argv
+
